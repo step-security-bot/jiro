@@ -1,0 +1,1336 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/adoptium.emt4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/adoptium.mc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/adoptium.temurin-compliance/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.app4mc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.ecal/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.kuksa/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.mdmbl/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.mosaic/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.openpass/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.scm/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.sphinx/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.sumo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive.tractusx/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/automotive/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/dt.aas4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/dt.basyx/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.cdt-cloud/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.che.che4z/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.che/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.codewind/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.emfcloud/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.glsp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.jkube/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.orion/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.sprotty/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ecd.theia/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.e4/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.equinox/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.jdt.ls/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.jdt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.pde/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.platform.releng/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/eclipse.platform/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.angus/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.authentication/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.authorization/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.bean-validation/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.ca/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.cdi/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.cu/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.data/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.eclipselink/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.ejb/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.el/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.es/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.exousia/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.expressly/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.faces/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.glassfish/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.grizzly/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.interceptors/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jaf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jakartaee-platform/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jakartaee-stable/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jakartaee-tck/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jaxb-impl/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jaxb/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jaxws/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jca/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jersey/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jpa/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jsonb/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jsonp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jsp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jstl/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.jta/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.krazo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.mail/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.messaging/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.metro/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.mojarra/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.mvc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.nosql/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.openmq/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.orb/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.parsson/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.rest/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.servlet/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.soteria/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.starter/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.tyrus/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.wasp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.websocket/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j.yasson/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/ee4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/foundation-internal.infra/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/foundation-internal.jakartaee-spec-committee/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/foundation-internal.simrel/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/foundation-internal.webdev/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.4diac/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.amlen/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.californium/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.concierge/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.ditto/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.embed-cdt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.fog05/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.hawkbit/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.hono/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.kapua/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.keti/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.keyple/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.kiso-testing/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.kura/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.leshan/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.milo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.oneofour/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.packages/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.paho/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.sparkplug/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.tahu/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.tinydtls/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.vorto/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/iot.zenoh/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/locationtech.geomesa/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/locationtech.geotrellis/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/locationtech.jts/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/locationtech.proj4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/locationtech.spatial4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.acceleo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.amalgam/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.capra/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.ecoretools/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.ecp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.edapt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.eef/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.efm/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.elk/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf-parsley/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf.cdo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf.diffmerge/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf.egf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf.mwe/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf.teneo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emfcompare/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emfservices/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emfstore/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emft.emfatic/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.emft.henshin/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.epsilon/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.gemoc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.gendoc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.gmf-runtime/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.graphiti/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.hawk/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdht/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.bpmn2/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.etrice/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.ocl/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.papyrus/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.rmf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mdt.uml2/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mmt.atl/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mmt.qvt-oml/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.mmt.qvtd/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.modisco/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.sirius/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.smartmdsd/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.tmf.xtext/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.viatra/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.xpect/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/modeling.xsemantics/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/openhw.corev/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/polarsys.capella/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/polarsys.chess/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/polarsys.esf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/polarsys.kitalpha/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/polarsys.opencert/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.ebr/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.ecf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.gemini/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.jetty/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.rap/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/rt.virgo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/science.chemclipse/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/science.january/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/science.statet/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/science.swtchart/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/science.texlipse/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/soa.bpel/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.apogy/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.babel/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.birt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.cbi/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.cognicrypt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.collections/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.comma/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.dash/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.dataeggs/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.ease/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.eclemma/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.edc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.efbt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.efxclipse/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.egit/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.escet/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.handly/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.jemo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.jgit/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.jnosql/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.jubula/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.justj/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lemminx/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lsat/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lsp4e/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lsp4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lsp4jakarta/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lsp4mp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.lyo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.m2e/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.microprofile/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.nebula.nattable/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.nebula/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.omr/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.osee/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.packager/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.packaging.mpc/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.packaging/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.passage/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.rcptt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.rdf4j/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.reddeer/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.repairnator/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.scava/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.scout/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.sensinact/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.set/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.sisu/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.skills/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.steady/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.stem/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.subversive/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.sw360/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.swtbot/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.tea/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.tigerstripe/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.tm4e/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.trace4cps/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.tycho/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.uomo/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.usssdk/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/technology.xwt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.acute/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.ajdt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.cdt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.corrosion/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.datatools/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.gef/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.linuxtools/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.mat/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.mylyn/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.objectteams/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.oomph/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.orbit/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.pdt/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.ptp/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.secoblocks/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.shellwax/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.tcf/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.tm/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.tracecompass/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.wildwebdeveloper/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/tools.windowbuilder/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /instances/webtools/target
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /performance-tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /tests
+    schedule:
+      interval: daily
